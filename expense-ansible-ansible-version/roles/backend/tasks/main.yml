@@ -47,7 +47,7 @@
             name: mysql
 
         - name: Load schema
-          ansible.builtin.shell: mysql -h {{ lookup('amazon.aws.aws_ssm', 'expense.frontend.my_db', region='us-east-1' ) }} -uroot -pExpenseApp@1 < /app/schema/backend.sql
+          ansible.builtin.shell: mysql -h mysql.aligntune.online -uroot -pExpenseApp@1 < /app/schema/backend.sql
 
 
         - name: start backend service
