@@ -10,10 +10,10 @@
           src: expense.conf
           dest: /etc/nginx/default.d/expense.conf
 
-      - name: Changing Nginx Log
-        ansible.builtin.template:
-          src: nginx.conf
-          dest: /etc/nginx/nginx.conf
+#      - name: Changing Nginx Log
+#        ansible.builtin.template:
+#          src: nginx.conf
+#          dest: /etc/nginx/nginx.conf
 
       - name: Removing old nginx Content
         ansible.builtin.file:
