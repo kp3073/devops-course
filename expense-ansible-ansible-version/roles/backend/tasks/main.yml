@@ -47,7 +47,7 @@
             name: mysql
 
         - name: Load schema
-          ansible.builtin.shell: mysql -h 172.31.90.35 -uroot -pExpenseApp@1 < /app/schema/backend.sql  < /app/schema/backend.sql
+          ansible.builtin.shell: mysql -h mysql.aligntune.online -uroot -pExpenseApp@1 < /app/schema/backend.sql  < /app/schema/backend.sql
 
         - name: start backend service
           ansible.builtin.systemd:
