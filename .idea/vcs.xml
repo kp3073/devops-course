@@ -3,6 +3,7 @@
   <component name="VcsDirectoryMappings">
     <mapping directory="" vcs="Git" />
     <mapping directory="$PROJECT_DIR$/Expense-ansible" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/aws-ec2-terraform" vcs="Git" />
     <mapping directory="$PROJECT_DIR$/expense-terraformv3" vcs="Git" />
     <mapping directory="$PROJECT_DIR$/infra-ansible" vcs="Git" />
     <mapping directory="$PROJECT_DIR$/learn-ansible" vcs="Git" />
