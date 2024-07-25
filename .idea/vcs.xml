@@ -7,6 +7,7 @@
     <mapping directory="$PROJECT_DIR$/backend" vcs="Git" />
     <mapping directory="$PROJECT_DIR$/exepense-jenkins-terraform" vcs="Git" />
     <mapping directory="$PROJECT_DIR$/expense-jenkins" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/expense-misc" vcs="Git" />
     <mapping directory="$PROJECT_DIR$/expense-terraformv3" vcs="Git" />
     <mapping directory="$PROJECT_DIR$/frontend" vcs="Git" />
     <mapping directory="$PROJECT_DIR$/infra-ansible" vcs="Git" />
